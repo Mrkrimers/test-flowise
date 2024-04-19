@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/gh/Mrkrimers/FlowiseChatEmbed/dist/web.js"
+    Chatbot.init({
+      chatflowid: "5a14b031-3b87-4414-bf58-9e7d2a7cdbc6",
+      apiHost: "http://5.35.93.187:3000",
+    })
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
